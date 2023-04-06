@@ -1,1 +1,6 @@
 # pie
+CREATE TABLE orders (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    topping VARCHAR(30) NOT NULL,
+    quantity INT(6) NOT NULL
+);
